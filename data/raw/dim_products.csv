@@ -1,0 +1,251 @@
+product_id,product_name,category,sub_category,brand,cost_price,selling_price
+PROD0001,Prestige Furniture 1,Home & Kitchen,Furniture,Prestige,23858.26,35154.87
+PROD0002,Dell Mobiles 2,Electronics,Mobiles,Dell,21238.8,44634.91
+PROD0003,Dell Laptops 3,Electronics,Laptops,Dell,6929.87,9020.39
+PROD0004,Apple Accessories 4,Electronics,Accessories,Apple,21655.13,45361.17
+PROD0005,Samsung Mobiles 5,Electronics,Mobiles,Samsung,17639.58,38734.15
+PROD0006,Lakme Skincare 6,electronics,Skincare,Lakme,3344.8,6848.25
+PROD0007,Samsung Accessories 7,Electronics,Accessories,Samsung,8653.88,14770.38
+PROD0008,Apple Accessories 8,Electronics,Accessories,Apple,27456.35,45552.61
+PROD0009,Puma Footwear 9,Fashion,Footwear,Puma,3424.66,6280.07
+PROD0010,Apple Mobiles 10,Electronics,Mobiles,Apple,192.3,418.2
+PROD0011,Reebok Fitness 11,Sports,Fitness,Reebok,13598.63,21610.31
+PROD0012,Lakme Skincare 12,Beauty,Skincare,Lakme,7329.63,12573.08
+PROD0013,Decathlon Outdoor 13,Sports,Outdoor,Decathlon,3578.6,5258.11
+PROD0014,Dell Accessories 14,Electronics,Accessories,Dell,9974.17,19691.02
+PROD0015,Nike Men Clothing 15,Fashion,Men Clothing,Nike,13031.41,24919.94
+PROD0016,Decathlon Fitness 16,Sports,Fitness,Decathlon,7242.63,14677.25
+PROD0017,Reebok Fitness 17,Sports,Fitness,Reebok,21394.67,39058.45
+PROD0018,Reebok Outdoor 18,Sports,Outdoor,Reebok,28285.93,47788.27
+PROD0019,Loreal Makeup 19,Beauty,Makeup,Loreal,5466.04,7844.21
+PROD0020,Philips Furniture 20,Home & Kitchen,Furniture,Philips,27839.0,36704.55
+PROD0021,Puma Footwear 21,Fashion,Footwear,Puma,4840.02,
+PROD0022,Reebok Outdoor 22,Sports,Outdoor,Reebok,23934.1,43001.98
+PROD0023,Lakme Makeup 23,Beauty,Makeup,Lakme,15190.51,22778.66
+PROD0024,Samsung Accessories 24,Electronics,Accessories,Samsung,9324.77,12351.11
+PROD0025,Nike Men Clothing 25,Fashion,Men Clothing,Nike,26236.71,34989.79
+PROD0026,Lakme Makeup 26,Beauty,Makeup,Lakme,14244.17,22550.76
+PROD0027,Dell Accessories 27,Electronics,Accessories,Dell,5483.35,9793.3
+PROD0028,Prestige Appliances 28,Home & Kitchen,Appliances,Prestige,28678.41,36502.66
+PROD0029,Reebok Outdoor 29,Sports,Outdoor,Reebok,3596.77,7689.93
+PROD0030,Samsung Mobiles 30,Electronics,Mobiles,Samsung,2087.9,3465.89
+PROD0031,,Beauty,Skincare,Lakme,20965.51,39654.3
+PROD0032,Prestige Appliances 32,Home & Kitchen,Appliances,Prestige,15071.94,23908.89
+PROD0033,Lakme Makeup 33,Beauty,Makeup,Lakme,21261.23,41901.35
+PROD0034,Lakme Makeup 34,Beauty,Makeup,Lakme,523.48,834.46
+PROD0035,Reebok Fitness 35,Sports,Fitness,Reebok,9844.97,17826.77
+PROD0036,Samsung Mobiles 36,Electronics,Mobiles,Samsung,26627.51,38634.63
+PROD0037,Puma Footwear 37,Fashion,Footwear,Puma,2752.49,4288.46
+PROD0038,Lakme Makeup 38,Beauty,Makeup,Lakme,30668.31,39912.45
+PROD0039,Puma Men Clothing 39,Fashion,Men Clothing,Puma,80.03,109.23
+PROD0040,Decathlon Outdoor 40,Sports,Outdoor,Decathlon,1555.23,2258.07
+PROD0041,Loreal Makeup 41,Beauty,Makeup,Loreal,23449.61,29940.55
+PROD0042,Philips Appliances 42,Home & Kitchen,Appliances,Philips,15008.13,31630.77
+PROD0043,Nike Footwear 43,Fashion,Footwear,Nike,18092.45,33552.86
+PROD0044,Nike Footwear 44,Fashion,Footwear,Nike,19184.55,41614.01
+PROD0045,Dell Laptops 45,Electronics,Laptops,Dell,11176.47,16274.38
+PROD0046,Puma Men Clothing 46,Fashion,Men Clothing,Puma,5319.07,7866.18
+PROD0047,Samsung Mobiles 47,Electronics,Mobiles,Samsung,24662.1,34891.52
+PROD0048,Reebok Outdoor 48,Sports,Outdoor,Reebok,26031.49,43779.23
+PROD0049,Puma Footwear 49,Fashion,Footwear,Puma,3901.34,7209.9
+PROD0050,Reebok Outdoor 50,Sports,Outdoor,Reebok,9168.74,19545.3
+PROD0051,Lakme Makeup 51,Beauty,Makeup,Lakme,16737.42,35456.59
+PROD0052,Lakme Makeup 52,Beauty,Makeup,Lakme,2313.34,2979.67
+PROD0053,Nike Footwear 53,Fashion,Footwear,Nike,21730.23,40331.67
+PROD0054,Lakme Skincare 54,Beauty,Skincare,Lakme,12675.99,17151.23
+PROD0055,Philips Furniture 55,Home & Kitchen,Furniture,Philips,16824.27,30999.85
+PROD0056,Apple Accessories 56,Electronics,Accessories,Apple,16867.07,22506.06
+PROD0057,Reebok Fitness 57,Sports,Fitness,Reebok,107.24,134.5
+PROD0058,Decathlon Fitness 58,Sports,Fitness,Decathlon,14558.5,28340.08
+PROD0059,Nike Men Clothing 59,Fashion,Men Clothing,Nike,19080.85,40029.62
+PROD0060,Prestige Appliances 60,Home & Kitchen,Appliances,Prestige,13375.61,20559.0
+PROD0061,Lakme Skincare 61,Beauty,Skincare,Lakme,9448.5,12435.0
+PROD0062,Loreal Makeup 62,Beauty,Makeup,Loreal,17669.07,34875.01
+PROD0063,Lakme Makeup 63,Beauty,Makeup,Lakme,3638.85,7714.72
+PROD0064,Puma Footwear 64,Fashion,Footwear,Puma,14753.71,28617.78
+PROD0065,Philips Appliances 65,Home & Kitchen,Appliances,Philips,20037.58,27194.84
+PROD0066,Decathlon Fitness 66,Sports,Fitness,Decathlon,21577.73,43971.33
+PROD0067,Decathlon Outdoor 67,Sports,Outdoor,Decathlon,9941.83,16678.65
+PROD0068,Reebok Fitness 68,Sports,Fitness,Reebok,11473.94,19232.53
+PROD0069,Samsung Accessories 69,Electronics,Accessories,Samsung,16478.39,23053.38
+PROD0070,Decathlon Outdoor 70,Sports,Outdoor,Decathlon,8749.83,15345.24
+PROD0071,Prestige Furniture 71,Home & Kitchen,Furniture,Prestige,9843.89,19573.21
+PROD0072,Nike Footwear 72,Fashion,Footwear,Nike,18620.54,31555.63
+PROD0073,Lakme Skincare 73,Beauty,Skincare,Lakme,33789.1,45816.01
+PROD0074,Reebok Outdoor 74,Sports,Outdoor,Reebok,6196.3,11585.98
+PROD0075,Samsung Mobiles 75,Electronics,Mobiles,Samsung,25279.86,39135.3
+PROD0076,Lakme Makeup 76,Beauty,Makeup,Lakme,408.65,609.51
+PROD0077,Reebok Outdoor 77,Sports,Outdoor,Reebok,14355.99,19806.15
+PROD0078,Philips Appliances 78,Home & Kitchen,Appliances,Philips,28878.29,37367.67
+PROD0079,Nike Footwear 79,Fashion,Footwear,Nike,26929.66,34994.37
+PROD0080,Loreal Skincare 80,Beauty,Skincare,Loreal,8132.71,14304.28
+PROD0081,Nike Men Clothing 81,Fashion,Men Clothing,Nike,2301.06,3054.12
+PROD0082,Lakme Makeup 82,Beauty,Makeup,Lakme,5012.18,7795.46
+PROD0083,Dell Laptops 83,Electronics,Laptops,Dell,18745.87,25508.85
+PROD0084,Nike Men Clothing 84,Fashion,Men Clothing,Nike,9729.02,19460.67
+PROD0085,Lakme Makeup 85,Beauty,Makeup,Lakme,8970.24,19215.74
+PROD0086,Loreal Makeup 86,Beauty,Makeup,Loreal,10153.62,15143.34
+PROD0087,Apple Accessories 87,Electronics,Accessories,Apple,2350.51,2951.44
+PROD0088,Nike Footwear 88,Fashion,Footwear,Nike,14905.67,26855.84
+PROD0089,Nike Men Clothing 89,Fashion,Men Clothing,Nike,20774.28,41705.98
+PROD0090,Reebok Outdoor 90,Sports,Outdoor,Reebok,12577.19,16166.0
+PROD0091,Nike Footwear 91,Fashion,Footwear,Nike,8529.48,12072.66
+PROD0092,Dell Accessories 92,Electronics,Accessories,Dell,2633.56,4138.43
+PROD0093,Dell Accessories 93,Electronics,Accessories,Dell,17240.76,32939.74
+PROD0094,Nike Men Clothing 94,Fashion,Men Clothing,Nike,10571.25,16448.74
+PROD0095,Puma Footwear 95,Fashion,Footwear,Puma,14887.58,29540.25
+PROD0096,Nike Men Clothing 96,Fashion,Men Clothing,Nike,16476.2,20597.66
+PROD0097,Reebok Outdoor 97,Sports,Outdoor,Reebok,11735.36,16189.5
+PROD0098,Decathlon Outdoor 98,Sports,Outdoor,Decathlon,6212.33,10160.53
+PROD0099,Samsung Accessories 99,Electronics,Accessories,Samsung,17095.22,25956.66
+PROD0100,Lakme Makeup 100,Beauty,Makeup,Lakme,26163.54,35910.88
+PROD0101,Decathlon Fitness 101,Sports,Fitness,Decathlon,25666.24,35038.27
+PROD0102,Lakme Skincare 102,Beauty,Skincare,Lakme,24996.83,44309.49
+PROD0103,Nike Footwear 103,Fashion,Footwear,Nike,26153.57,41382.73
+PROD0104,Lakme Skincare 104,Beauty,Skincare,Lakme,6660.69,13045.45
+PROD0105,Philips Appliances 105,Home & Kitchen,Appliances,Philips,25732.74,38246.01
+PROD0106,Decathlon Fitness 106,Sports,Fitness,Decathlon,2379.53,3629.5
+PROD0107,Nike Men Clothing 107,Fashion,Men Clothing,Nike,1363.39,2322.88
+PROD0108,Samsung Accessories 108,Electronics,Accessories,Samsung,19379.09,28600.95
+PROD0109,Decathlon Fitness 109,Sports,Fitness,Decathlon,3714.76,7976.85
+PROD0110,Lakme Makeup 110,Beauty,Makeup,Lakme,21245.45,28843.59
+PROD0111,Prestige Appliances 111,Home & Kitchen,Appliances,Prestige,22949.39,39850.92
+PROD0112,Reebok Fitness 112,Sports,Fitness,Reebok,20267.52,28889.86
+PROD0113,Reebok Fitness 113,Sports,Fitness,Reebok,27167.08,43672.1
+PROD0114,Nike Men Clothing 114,Fashion,Men Clothing,Nike,24573.75,43787.46
+PROD0115,Loreal Makeup 115,Beauty,Makeup,Loreal,6104.87,11040.68
+PROD0116,Apple Accessories 116,Electronics,Accessories,Apple,27744.36,36515.39
+PROD0117,Lakme Skincare 117,Beauty,Skincare,Lakme,16376.6,23611.99
+PROD0118,Philips Furniture 118,Home & Kitchen,Furniture,Philips,4410.03,7026.81
+PROD0119,Prestige Furniture 119,Home & Kitchen,Furniture,Prestige,13102.28,21798.57
+PROD0120,Nike Men Clothing 120,Fashion,Men Clothing,Nike,6334.68,9483.43
+PROD0121,Samsung Laptops 121,Electronics,Laptops,Samsung,22627.66,33636.41
+PROD0122,Nike Footwear 122,Fashion,Footwear,Nike,22683.81,37163.54
+PROD0123,Loreal Makeup 123,Beauty,Makeup,Loreal,27715.83,42644.71
+PROD0124,Loreal Skincare 124,Beauty,Skincare,Loreal,26177.12,44102.32
+PROD0125,Prestige Furniture 125,Home & Kitchen,Furniture,Prestige,18180.02,35036.92
+PROD0126,Dell Laptops 126,Electronics,Laptops,Dell,3294.26,4245.04
+PROD0127,Lakme Makeup 127,Beauty,Makeup,Lakme,8669.73,18604.8
+PROD0128,Loreal Makeup 128,Beauty,Makeup,Loreal,24045.46,30960.83
+PROD0129,Decathlon Fitness 129,Sports,Fitness,Decathlon,30607.11,38473.55
+PROD0130,Nike Footwear 130,Fashion,Footwear,Nike,28498.68,46762.33
+PROD0131,Philips Appliances 131,Home & Kitchen,Appliances,Philips,5566.24,11772.1
+PROD0132,Nike Men Clothing 132,Fashion,Men Clothing,Nike,9182.05,13678.97
+PROD0133,Loreal Makeup 133,Beauty,Makeup,Loreal,20526.3,45553.48
+PROD0134,Puma Men Clothing 134,Fashion,Men Clothing,Puma,29342.92,40892.48
+PROD0135,Apple Laptops 135,Electronics,Laptops,Apple,17108.71,34580.03
+PROD0136,Nike Men Clothing 136,Fashion,Men Clothing,Nike,1951.9,2757.45
+PROD0137,Philips Furniture 137,Home & Kitchen,Furniture,Philips,18604.47,32106.32
+PROD0138,Philips Furniture 138,Home & Kitchen,Furniture,Philips,8001.5,17340.85
+PROD0139,Apple Laptops 139,Electronics,Laptops,Apple,36897.87,49672.37
+PROD0140,Loreal Skincare 140,Beauty,Skincare,Loreal,35867.37,48712.12
+PROD0141,Reebok Outdoor 141,Sports,Outdoor,Reebok,17151.16,22996.76
+PROD0142,Decathlon Fitness 142,Sports,Fitness,Decathlon,6852.32,9998.04
+PROD0143,Decathlon Fitness 143,Sports,Fitness,Decathlon,7011.55,11937.25
+PROD0144,Nike Men Clothing 144,Fashion,Men Clothing,Nike,26102.86,43596.84
+PROD0145,Puma Footwear 145,Fashion,Footwear,Puma,29492.75,44696.43
+PROD0146,Prestige Furniture 146,Home & Kitchen,Furniture,Prestige,7985.88,14757.93
+PROD0147,Loreal Skincare 147,Beauty,Skincare,Loreal,174.5,268.37
+PROD0148,Prestige Furniture 148,Home & Kitchen,Furniture,Prestige,22174.08,41944.62
+PROD0149,Apple Mobiles 149,Electronics,Mobiles,Apple,19076.03,24014.23
+PROD0150,Reebok Fitness 150,Sports,Fitness,Reebok,15358.97,19730.03
+PROD0151,Nike Men Clothing 151,Fashion,Men Clothing,Nike,25763.84,41346.88
+PROD0152,Loreal Makeup 152,Beauty,Makeup,Loreal,15042.15,31804.67
+PROD0153,Decathlon Outdoor 153,Sports,Outdoor,Decathlon,18522.31,25869.99
+PROD0154,Nike Men Clothing 154,Fashion,Men Clothing,Nike,5426.83,11595.29
+PROD0155,Puma Men Clothing 155,Fashion,Men Clothing,Puma,793.14,1567.12
+PROD0156,Apple Mobiles 156,Electronics,Mobiles,Apple,8756.76,11964.57
+PROD0157,Dell Accessories 157,Electronics,Accessories,Dell,14667.5,23009.82
+PROD0158,Philips Appliances 158,Home & Kitchen,Appliances,Philips,8720.23,15723.74
+PROD0159,Dell Mobiles 159,Electronics,Mobiles,Dell,19708.88,27718.93
+PROD0160,Lakme Makeup 160,Beauty,Makeup,Lakme,5489.26,9116.44
+PROD0161,Prestige Furniture 161,Home & Kitchen,Furniture,Prestige,25341.65,32239.94
+PROD0162,Puma Footwear 162,Fashion,Footwear,Puma,7956.69,13543.24
+PROD0163,Loreal Skincare 163,Beauty,Skincare,Loreal,14244.52,28508.18
+PROD0164,Prestige Appliances 164,Home & Kitchen,Appliances,Prestige,24220.67,30617.99
+PROD0165,Puma Footwear 165,Fashion,Footwear,Puma,8496.39,13743.67
+PROD0166,Nike Men Clothing 166,Fashion,Men Clothing,Nike,3769.08,5970.15
+PROD0167,Samsung Laptops 167,Electronics,Laptops,Samsung,31084.1,48581.69
+PROD0168,Samsung Laptops 168,Electronics,Laptops,Samsung,6008.8,10753.72
+PROD0169,Decathlon Fitness 169,Sports,Fitness,Decathlon,23516.99,31357.73
+PROD0170,Decathlon Fitness 170,Sports,Fitness,Decathlon,14125.5,22726.54
+PROD0171,Philips Furniture 171,Home & Kitchen,Furniture,Philips,19711.13,40486.83
+PROD0172,Loreal Skincare 172,Beauty,Skincare,Loreal,29142.87,47567.16
+PROD0173,Samsung Laptops 173,Electronics,Laptops,Samsung,12028.99,16649.33
+PROD0174,Nike Footwear 174,Fashion,Footwear,Nike,6465.15,12897.98
+PROD0175,Reebok Outdoor 175,Sports,Outdoor,Reebok,8896.49,12980.27
+PROD0176,Loreal Skincare 176,Beauty,Skincare,Loreal,3114.77,5123.33
+PROD0177,Decathlon Fitness 177,Sports,Fitness,Decathlon,7598.53,11854.41
+PROD0178,Decathlon Outdoor 178,Sports,Outdoor,Decathlon,5046.35,7000.19
+PROD0179,Decathlon Fitness 179,Sports,Fitness,Decathlon,25955.86,46203.24
+PROD0180,Apple Mobiles 180,Electronics,Mobiles,Apple,11728.48,17788.48
+PROD0181,Nike Men Clothing 181,Fashion,Men Clothing,Nike,17389.14,36967.04
+PROD0182,Lakme Makeup 182,Beauty,Makeup,Lakme,24821.56,33771.43
+PROD0183,Dell Accessories 183,Electronics,Accessories,Dell,23927.27,39646.81
+PROD0184,Puma Men Clothing 184,Fashion,Men Clothing,Puma,26400.77,41156.24
+PROD0185,Apple Laptops 185,Electronics,Laptops,Apple,5179.74,9417.58
+PROD0186,Decathlon Fitness 186,Sports,Fitness,Decathlon,19093.51,29677.52
+PROD0187,Lakme Makeup 187,Beauty,Makeup,Lakme,28098.28,40128.2
+PROD0188,Philips Furniture 188,Home & Kitchen,Furniture,Philips,6321.89,10731.7
+PROD0189,Puma Men Clothing 189,Fashion,Men Clothing,Puma,23758.09,38925.9
+PROD0190,Loreal Skincare 190,Beauty,Skincare,Loreal,8813.78,11329.01
+PROD0191,Philips Furniture 191,Home & Kitchen,Furniture,Philips,12561.17,22508.87
+PROD0192,Apple Accessories 192,Electronics,Accessories,Apple,14222.78,25611.79
+PROD0193,Prestige Appliances 193,Home & Kitchen,Appliances,Prestige,9263.54,13592.15
+PROD0194,Decathlon Fitness 194,Sports,Fitness,Decathlon,23594.43,39782.14
+PROD0195,Loreal Skincare 195,Beauty,Skincare,Loreal,5012.94,8130.91
+PROD0196,Philips Furniture 196,Home & Kitchen,Furniture,Philips,12134.26,20139.88
+PROD0197,Loreal Makeup 197,Beauty,Makeup,Loreal,8682.53,12069.81
+PROD0198,Loreal Makeup 198,Beauty,Makeup,Loreal,4723.87,10191.16
+PROD0199,Apple Accessories 199,Electronics,Accessories,Apple,24870.96,35035.67
+PROD0200,Prestige Furniture 200,Home & Kitchen,Furniture,Prestige,6135.5,12014.09
+PROD0201,Samsung Laptops 201,Electronics,Laptops,Samsung,22437.13,29068.51
+PROD0202,Samsung Accessories 202,Electronics,Accessories,Samsung,8162.46,12773.77
+PROD0203,Philips Appliances 203,Home & Kitchen,Appliances,Philips,9432.03,13292.47
+PROD0204,Nike Footwear 204,Fashion,Footwear,Nike,13638.38,23408.11
+PROD0205,Puma Men Clothing 205,Fashion,Men Clothing,Puma,20887.03,32841.41
+PROD0206,Nike Men Clothing 206,Fashion,Men Clothing,Nike,6038.56,10137.35
+PROD0207,Prestige Furniture 207,Home & Kitchen,Furniture,Prestige,34934.2,47829.03
+PROD0208,Lakme Makeup 208,Beauty,Makeup,Lakme,17474.68,25654.22
+PROD0209,Puma Footwear 209,Fashion,Footwear,Puma,4283.82,7204.33
+PROD0210,Loreal Makeup 210,Beauty,Makeup,Loreal,23084.63,44751.34
+PROD0211,Puma Men Clothing 211,Fashion,Men Clothing,Puma,36668.2,49097.87
+PROD0212,Lakme Makeup 212,Beauty,Makeup,Lakme,19942.31,34337.79
+PROD0213,Prestige Furniture 213,Home & Kitchen,Furniture,Prestige,2596.81,4694.67
+PROD0214,Philips Appliances 214,Home & Kitchen,Appliances,Philips,22155.24,37075.72
+PROD0215,Puma Footwear 215,Fashion,Footwear,Puma,21107.34,40164.01
+PROD0216,Philips Appliances 216,Home & Kitchen,Appliances,Philips,30946.51,41204.93
+PROD0217,Lakme Makeup 217,Beauty,Makeup,Lakme,18842.34,36137.64
+PROD0218,Prestige Appliances 218,Home & Kitchen,Appliances,Prestige,5302.56,11222.28
+PROD0219,Apple Laptops 219,Electronics,Laptops,Apple,1885.03,2659.94
+PROD0220,Samsung Accessories 220,Electronics,Accessories,Samsung,17645.73,24626.68
+PROD0221,Puma Footwear 221,Fashion,Footwear,Puma,8111.13,14209.03
+PROD0222,Lakme Makeup 222,Beauty,Makeup,Lakme,35755.59,44745.71
+PROD0223,Philips Appliances 223,Home & Kitchen,Appliances,Philips,3742.06,5177.62
+PROD0224,Lakme Skincare 224,Beauty,Skincare,Lakme,12577.66,27851.81
+PROD0225,Samsung Accessories 225,Electronics,Accessories,Samsung,16913.71,30865.85
+PROD0226,Loreal Skincare 226,Beauty,Skincare,Loreal,13885.31,17593.1
+PROD0227,Lakme Skincare 227,Beauty,Skincare,Lakme,17430.94,37159.63
+PROD0228,Puma Men Clothing 228,Fashion,Men Clothing,Puma,15491.33,34080.69
+PROD0229,Prestige Appliances 229,Home & Kitchen,Appliances,Prestige,29200.44,44321.07
+PROD0230,Prestige Appliances 230,Home & Kitchen,Appliances,Prestige,14391.89,31577.98
+PROD0231,Puma Men Clothing 231,Fashion,Men Clothing,Puma,2714.75,4280.91
+PROD0232,Decathlon Outdoor 232,Sports,Outdoor,Decathlon,14101.07,19148.56
+PROD0233,Nike Footwear 233,Fashion,Footwear,Nike,8417.75,14270.21
+PROD0234,Nike Men Clothing 234,Fashion,Men Clothing,Nike,3811.08,6087.94
+PROD0235,Loreal Makeup 235,Beauty,Makeup,Loreal,25934.33,47755.58
+PROD0236,Lakme Skincare 236,Beauty,Skincare,Lakme,20073.4,39562.5
+PROD0237,Nike Footwear 237,Fashion,Footwear,Nike,27887.51,44306.56
+PROD0238,Prestige Furniture 238,Home & Kitchen,Furniture,Prestige,4617.19,6377.83
+PROD0239,Puma Men Clothing 239,Fashion,Men Clothing,Puma,22229.53,44390.58
+PROD0240,Decathlon Fitness 240,Sports,Fitness,Decathlon,3205.89,5959.05
+PROD0241,Loreal Makeup 241,Beauty,Makeup,Loreal,20186.31,25795.93
+PROD0242,Reebok Fitness 242,Sports,Fitness,Reebok,24260.36,43043.9
+PROD0243,Philips Appliances 243,Home & Kitchen,Appliances,Philips,1290.17,1959.27
+PROD0244,Loreal Makeup 244,Beauty,Makeup,Loreal,15384.35,28780.63
+PROD0245,Nike Footwear 245,Fashion,Footwear,Nike,23979.48,30217.68
+PROD0246,Prestige Furniture 246,Home & Kitchen,Furniture,Prestige,4092.07,7304.91
+PROD0247,Loreal Makeup 247,Beauty,Makeup,Loreal,21448.16,42411.88
+PROD0248,Philips Furniture 248,Home & Kitchen,Furniture,Philips,3329.39,6525.56
+PROD0249,Dell Laptops 249,Electronics,Laptops,Dell,19046.03,38507.91
+PROD0250,Lakme Makeup 250,Beauty,Makeup,Lakme,3110.94,4647.12
