@@ -1,0 +1,250 @@
+﻿product_id,category,sub_category,brand,cost_price,selling_price,selling_price_bucket,Category_Price,product_name
+PROD0001,Home & Kitchen,Furniture,Prestige,23858.26,35154.87,High Price,High Profit,Prestige Furniture 
+PROD0002,Electronics,Mobiles,Dell,21238.8,44634.91,Premium Price,High Profit,Dell Mobiles 
+PROD0003,Electronics,Laptops,Dell,6929.87,9020.39,Low Price,Mid Profit,Dell Laptops 
+PROD0004,Electronics,Accessories,Apple,21655.13,45361.17,Premium Price,High Profit,Apple Accessories 
+PROD0005,Electronics,Mobiles,Samsung,17639.58,38734.15,High Price,High Profit,Samsung Mobiles 
+PROD0006,Electronics,Skincare,Lakme,3344.8,6848.25,Low Price,Mid Profit,Lakme Skincare 
+PROD0007,Electronics,Accessories,Samsung,8653.88,14770.38,Mid Price,High Profit,Samsung Accessories 
+PROD0008,Electronics,Accessories,Apple,27456.35,45552.61,Premium Price,High Profit,Apple Accessories 
+PROD0009,Fashion,Footwear,Puma,3424.66,6280.07,Low Price,Mid Profit,Puma Footwear 
+PROD0010,Electronics,Mobiles,Apple,192.3,418.2,Very Low Price,Low Profit,Apple Mobiles 
+PROD0011,Sports,Fitness,Reebok,13598.63,21610.31,Mid Price,High Profit,Reebok Fitness 
+PROD0012,Beauty,Skincare,Lakme,7329.63,12573.08,Mid Price,High Profit,Lakme Skincare 
+PROD0013,Sports,Outdoor,Decathlon,3578.6,5258.11,Low Price,Mid Profit,Decathlon Outdoor 
+PROD0014,Electronics,Accessories,Dell,9974.17,19691.02,Mid Price,High Profit,Dell Accessories 
+PROD0015,Fashion,Men Clothing,Nike,13031.41,24919.94,Mid Price,High Profit,Nike Men Clothing 
+PROD0016,Sports,Fitness,Decathlon,7242.63,14677.25,Mid Price,High Profit,Decathlon Fitness 
+PROD0017,Sports,Fitness,Reebok,21394.67,39058.45,High Price,High Profit,Reebok Fitness 
+PROD0018,Sports,Outdoor,Reebok,28285.93,47788.27,Premium Price,High Profit,Reebok Outdoor 
+PROD0019,Beauty,Makeup,Loreal,5466.04,7844.21,Low Price,Mid Profit,Loreal Makeup 
+PROD0020,Home & Kitchen,Furniture,Philips,27839,36704.55,High Price,High Profit,Philips Furniture 
+PROD0021,Fashion,Footwear,Puma,4840.02,0,Very Low Price,Low Profit,Puma Footwear 
+PROD0022,Sports,Outdoor,Reebok,23934.1,43001.98,Premium Price,High Profit,Reebok Outdoor 
+PROD0023,Beauty,Makeup,Lakme,15190.51,22778.66,Mid Price,High Profit,Lakme Makeup 
+PROD0024,Electronics,Accessories,Samsung,9324.77,12351.11,Mid Price,Mid Profit,Samsung Accessories 
+PROD0025,Fashion,Men Clothing,Nike,26236.71,34989.79,High Price,High Profit,Nike Men Clothing 
+PROD0026,Beauty,Makeup,Lakme,14244.17,22550.76,Mid Price,High Profit,Lakme Makeup 
+PROD0027,Electronics,Accessories,Dell,5483.35,9793.3,Low Price,Mid Profit,Dell Accessories 
+PROD0028,Home & Kitchen,Appliances,Prestige,28678.41,36502.66,High Price,High Profit,Prestige Appliances 
+PROD0029,Sports,Outdoor,Reebok,3596.77,7689.93,Low Price,Mid Profit,Reebok Outdoor 
+PROD0030,Electronics,Mobiles,Samsung,2087.9,3465.89,Low Price,Mid Profit,Samsung Mobiles 
+PROD0032,Home & Kitchen,Appliances,Prestige,15071.94,23908.89,Mid Price,High Profit,Prestige Appliances 
+PROD0033,Beauty,Makeup,Lakme,21261.23,41901.35,Premium Price,High Profit,Lakme Makeup 
+PROD0034,Beauty,Makeup,Lakme,523.48,834.46,Very Low Price,Low Profit,Lakme Makeup 
+PROD0035,Sports,Fitness,Reebok,9844.97,17826.77,Mid Price,High Profit,Reebok Fitness 
+PROD0036,Electronics,Mobiles,Samsung,26627.51,38634.63,High Price,High Profit,Samsung Mobiles 
+PROD0037,Fashion,Footwear,Puma,2752.49,4288.46,Low Price,Mid Profit,Puma Footwear 
+PROD0038,Beauty,Makeup,Lakme,30668.31,39912.45,High Price,High Profit,Lakme Makeup 
+PROD0039,Fashion,Men Clothing,Puma,80.03,109.23,Very Low Price,Low Profit,Puma Men Clothing 
+PROD0040,Sports,Outdoor,Decathlon,1555.23,2258.07,Low Price,Low Profit,Decathlon Outdoor 
+PROD0041,Beauty,Makeup,Loreal,23449.61,29940.55,High Price,High Profit,Loreal Makeup 
+PROD0042,Home & Kitchen,Appliances,Philips,15008.13,31630.77,High Price,High Profit,Philips Appliances 
+PROD0043,Fashion,Footwear,Nike,18092.45,33552.86,High Price,High Profit,Nike Footwear 
+PROD0044,Fashion,Footwear,Nike,19184.55,41614.01,Premium Price,High Profit,Nike Footwear 
+PROD0045,Electronics,Laptops,Dell,11176.47,16274.38,Mid Price,High Profit,Dell Laptops 
+PROD0046,Fashion,Men Clothing,Puma,5319.07,7866.18,Low Price,Mid Profit,Puma Men Clothing 
+PROD0047,Electronics,Mobiles,Samsung,24662.1,34891.52,High Price,High Profit,Samsung Mobiles 
+PROD0048,Sports,Outdoor,Reebok,26031.49,43779.23,Premium Price,High Profit,Reebok Outdoor 
+PROD0049,Fashion,Footwear,Puma,3901.34,7209.9,Low Price,Mid Profit,Puma Footwear 
+PROD0050,Sports,Outdoor,Reebok,9168.74,19545.3,Mid Price,High Profit,Reebok Outdoor 
+PROD0051,Beauty,Makeup,Lakme,16737.42,35456.59,High Price,High Profit,Lakme Makeup 
+PROD0052,Beauty,Makeup,Lakme,2313.34,2979.67,Low Price,Low Profit,Lakme Makeup 
+PROD0053,Fashion,Footwear,Nike,21730.23,40331.67,Premium Price,High Profit,Nike Footwear 
+PROD0054,Beauty,Skincare,Lakme,12675.99,17151.23,Mid Price,Mid Profit,Lakme Skincare 
+PROD0055,Home & Kitchen,Furniture,Philips,16824.27,30999.85,High Price,High Profit,Philips Furniture 
+PROD0056,Electronics,Accessories,Apple,16867.07,22506.06,Mid Price,High Profit,Apple Accessories 
+PROD0057,Sports,Fitness,Reebok,107.24,134.5,Very Low Price,Low Profit,Reebok Fitness 
+PROD0058,Sports,Fitness,Decathlon,14558.5,28340.08,High Price,High Profit,Decathlon Fitness 
+PROD0059,Fashion,Men Clothing,Nike,19080.85,40029.62,Premium Price,High Profit,Nike Men Clothing 
+PROD0060,Home & Kitchen,Appliances,Prestige,13375.61,20559,Mid Price,High Profit,Prestige Appliances 
+PROD0061,Beauty,Skincare,Lakme,9448.5,12435,Mid Price,Mid Profit,Lakme Skincare 
+PROD0062,Beauty,Makeup,Loreal,17669.07,34875.01,High Price,High Profit,Loreal Makeup 
+PROD0063,Beauty,Makeup,Lakme,3638.85,7714.72,Low Price,Mid Profit,Lakme Makeup 
+PROD0064,Fashion,Footwear,Puma,14753.71,28617.78,High Price,High Profit,Puma Footwear 
+PROD0065,Home & Kitchen,Appliances,Philips,20037.58,27194.84,High Price,High Profit,Philips Appliances 
+PROD0066,Sports,Fitness,Decathlon,21577.73,43971.33,Premium Price,High Profit,Decathlon Fitness 
+PROD0067,Sports,Outdoor,Decathlon,9941.83,16678.65,Mid Price,High Profit,Decathlon Outdoor 
+PROD0068,Sports,Fitness,Reebok,11473.94,19232.53,Mid Price,High Profit,Reebok Fitness 
+PROD0069,Electronics,Accessories,Samsung,16478.39,23053.38,Mid Price,High Profit,Samsung Accessories 
+PROD0070,Sports,Outdoor,Decathlon,8749.83,15345.24,Mid Price,High Profit,Decathlon Outdoor 
+PROD0071,Home & Kitchen,Furniture,Prestige,9843.89,19573.21,Mid Price,High Profit,Prestige Furniture 
+PROD0072,Fashion,Footwear,Nike,18620.54,31555.63,High Price,High Profit,Nike Footwear 
+PROD0073,Beauty,Skincare,Lakme,33789.1,45816.01,Premium Price,High Profit,Lakme Skincare 
+PROD0074,Sports,Outdoor,Reebok,6196.3,11585.98,Mid Price,High Profit,Reebok Outdoor 
+PROD0075,Electronics,Mobiles,Samsung,25279.86,39135.3,High Price,High Profit,Samsung Mobiles 
+PROD0076,Beauty,Makeup,Lakme,408.65,609.51,Very Low Price,Low Profit,Lakme Makeup 
+PROD0077,Sports,Outdoor,Reebok,14355.99,19806.15,Mid Price,High Profit,Reebok Outdoor 
+PROD0078,Home & Kitchen,Appliances,Philips,28878.29,37367.67,High Price,High Profit,Philips Appliances 
+PROD0079,Fashion,Footwear,Nike,26929.66,34994.37,High Price,High Profit,Nike Footwear 
+PROD0080,Beauty,Skincare,Loreal,8132.71,14304.28,Mid Price,High Profit,Loreal Skincare 
+PROD0081,Fashion,Men Clothing,Nike,2301.06,3054.12,Low Price,Low Profit,Nike Men Clothing 
+PROD0082,Beauty,Makeup,Lakme,5012.18,7795.46,Low Price,Mid Profit,Lakme Makeup 
+PROD0083,Electronics,Laptops,Dell,18745.87,25508.85,High Price,High Profit,Dell Laptops 
+PROD0084,Fashion,Men Clothing,Nike,9729.02,19460.67,Mid Price,High Profit,Nike Men Clothing 
+PROD0085,Beauty,Makeup,Lakme,8970.24,19215.74,Mid Price,High Profit,Lakme Makeup 
+PROD0086,Beauty,Makeup,Loreal,10153.62,15143.34,Mid Price,Mid Profit,Loreal Makeup 
+PROD0087,Electronics,Accessories,Apple,2350.51,2951.44,Low Price,Low Profit,Apple Accessories 
+PROD0088,Fashion,Footwear,Nike,14905.67,26855.84,High Price,High Profit,Nike Footwear 
+PROD0089,Fashion,Men Clothing,Nike,20774.28,41705.98,Premium Price,High Profit,Nike Men Clothing 
+PROD0090,Sports,Outdoor,Reebok,12577.19,16166,Mid Price,Mid Profit,Reebok Outdoor 
+PROD0091,Fashion,Footwear,Nike,8529.48,12072.66,Mid Price,Mid Profit,Nike Footwear 
+PROD0092,Electronics,Accessories,Dell,2633.56,4138.43,Low Price,Mid Profit,Dell Accessories 
+PROD0093,Electronics,Accessories,Dell,17240.76,32939.74,High Price,High Profit,Dell Accessories 
+PROD0094,Fashion,Men Clothing,Nike,10571.25,16448.74,Mid Price,High Profit,Nike Men Clothing 
+PROD0095,Fashion,Footwear,Puma,14887.58,29540.25,High Price,High Profit,Puma Footwear 
+PROD0096,Fashion,Men Clothing,Nike,16476.2,20597.66,Mid Price,Mid Profit,Nike Men Clothing 
+PROD0097,Sports,Outdoor,Reebok,11735.36,16189.5,Mid Price,Mid Profit,Reebok Outdoor 
+PROD0098,Sports,Outdoor,Decathlon,6212.33,10160.53,Mid Price,Mid Profit,Decathlon Outdoor 
+PROD0099,Electronics,Accessories,Samsung,17095.22,25956.66,High Price,High Profit,Samsung Accessories 
+PROD0100,Beauty,Makeup,Lakme,26163.54,35910.88,High Price,High Profit,Lakme Makeup 
+PROD0101,Sports,Fitness,Decathlon,25666.24,35038.27,High Price,High Profit,Decathlon Fitness 
+PROD0102,Beauty,Skincare,Lakme,24996.83,44309.49,Premium Price,High Profit,Lakme Skincare 
+PROD0103,Fashion,Footwear,Nike,26153.57,41382.73,Premium Price,High Profit,Nike Footwear 
+PROD0104,Beauty,Skincare,Lakme,6660.69,13045.45,Mid Price,High Profit,Lakme Skincare 
+PROD0105,Home & Kitchen,Appliances,Philips,25732.74,38246.01,High Price,High Profit,Philips Appliances 
+PROD0106,Sports,Fitness,Decathlon,2379.53,3629.5,Low Price,Mid Profit,Decathlon Fitness 
+PROD0107,Fashion,Men Clothing,Nike,1363.39,2322.88,Low Price,Low Profit,Nike Men Clothing 
+PROD0108,Electronics,Accessories,Samsung,19379.09,28600.95,High Price,High Profit,Samsung Accessories 
+PROD0109,Sports,Fitness,Decathlon,3714.76,7976.85,Low Price,Mid Profit,Decathlon Fitness 
+PROD0110,Beauty,Makeup,Lakme,21245.45,28843.59,High Price,High Profit,Lakme Makeup 
+PROD0111,Home & Kitchen,Appliances,Prestige,22949.39,39850.92,High Price,High Profit,Prestige Appliances 
+PROD0112,Sports,Fitness,Reebok,20267.52,28889.86,High Price,High Profit,Reebok Fitness 
+PROD0113,Sports,Fitness,Reebok,27167.08,43672.1,Premium Price,High Profit,Reebok Fitness 
+PROD0114,Fashion,Men Clothing,Nike,24573.75,43787.46,Premium Price,High Profit,Nike Men Clothing 
+PROD0115,Beauty,Makeup,Loreal,6104.87,11040.68,Mid Price,Mid Profit,Loreal Makeup 
+PROD0116,Electronics,Accessories,Apple,27744.36,36515.39,High Price,High Profit,Apple Accessories 
+PROD0117,Beauty,Skincare,Lakme,16376.6,23611.99,Mid Price,High Profit,Lakme Skincare 
+PROD0118,Home & Kitchen,Furniture,Philips,4410.03,7026.81,Low Price,Mid Profit,Philips Furniture 
+PROD0119,Home & Kitchen,Furniture,Prestige,13102.28,21798.57,Mid Price,High Profit,Prestige Furniture 
+PROD0120,Fashion,Men Clothing,Nike,6334.68,9483.43,Low Price,Mid Profit,Nike Men Clothing 
+PROD0121,Electronics,Laptops,Samsung,22627.66,33636.41,High Price,High Profit,Samsung Laptops 
+PROD0122,Fashion,Footwear,Nike,22683.81,37163.54,High Price,High Profit,Nike Footwear 
+PROD0123,Beauty,Makeup,Loreal,27715.83,42644.71,Premium Price,High Profit,Loreal Makeup 
+PROD0124,Beauty,Skincare,Loreal,26177.12,44102.32,Premium Price,High Profit,Loreal Skincare 
+PROD0125,Home & Kitchen,Furniture,Prestige,18180.02,35036.92,High Price,High Profit,Prestige Furniture 
+PROD0126,Electronics,Laptops,Dell,3294.26,4245.04,Low Price,Low Profit,Dell Laptops 
+PROD0127,Beauty,Makeup,Lakme,8669.73,18604.8,Mid Price,High Profit,Lakme Makeup 
+PROD0128,Beauty,Makeup,Loreal,24045.46,30960.83,High Price,High Profit,Loreal Makeup 
+PROD0129,Sports,Fitness,Decathlon,30607.11,38473.55,High Price,High Profit,Decathlon Fitness 
+PROD0130,Fashion,Footwear,Nike,28498.68,46762.33,Premium Price,High Profit,Nike Footwear 
+PROD0131,Home & Kitchen,Appliances,Philips,5566.24,11772.1,Mid Price,High Profit,Philips Appliances 
+PROD0132,Fashion,Men Clothing,Nike,9182.05,13678.97,Mid Price,Mid Profit,Nike Men Clothing 
+PROD0133,Beauty,Makeup,Loreal,20526.3,45553.48,Premium Price,High Profit,Loreal Makeup 
+PROD0134,Fashion,Men Clothing,Puma,29342.92,40892.48,Premium Price,High Profit,Puma Men Clothing 
+PROD0135,Electronics,Laptops,Apple,17108.71,34580.03,High Price,High Profit,Apple Laptops 
+PROD0136,Fashion,Men Clothing,Nike,1951.9,2757.45,Low Price,Low Profit,Nike Men Clothing 
+PROD0137,Home & Kitchen,Furniture,Philips,18604.47,32106.32,High Price,High Profit,Philips Furniture 
+PROD0138,Home & Kitchen,Furniture,Philips,8001.5,17340.85,Mid Price,High Profit,Philips Furniture 
+PROD0139,Electronics,Laptops,Apple,36897.87,49672.37,Premium Price,High Profit,Apple Laptops 
+PROD0140,Beauty,Skincare,Loreal,35867.37,48712.12,Premium Price,High Profit,Loreal Skincare 
+PROD0141,Sports,Outdoor,Reebok,17151.16,22996.76,Mid Price,High Profit,Reebok Outdoor 
+PROD0142,Sports,Fitness,Decathlon,6852.32,9998.04,Low Price,Mid Profit,Decathlon Fitness 
+PROD0143,Sports,Fitness,Decathlon,7011.55,11937.25,Mid Price,Mid Profit,Decathlon Fitness 
+PROD0144,Fashion,Men Clothing,Nike,26102.86,43596.84,Premium Price,High Profit,Nike Men Clothing 
+PROD0145,Fashion,Footwear,Puma,29492.75,44696.43,Premium Price,High Profit,Puma Footwear 
+PROD0146,Home & Kitchen,Furniture,Prestige,7985.88,14757.93,Mid Price,High Profit,Prestige Furniture 
+PROD0147,Beauty,Skincare,Loreal,174.5,268.37,Very Low Price,Low Profit,Loreal Skincare 
+PROD0148,Home & Kitchen,Furniture,Prestige,22174.08,41944.62,Premium Price,High Profit,Prestige Furniture 
+PROD0149,Electronics,Mobiles,Apple,19076.03,24014.23,Mid Price,Mid Profit,Apple Mobiles 
+PROD0150,Sports,Fitness,Reebok,15358.97,19730.03,Mid Price,Mid Profit,Reebok Fitness 
+PROD0151,Fashion,Men Clothing,Nike,25763.84,41346.88,Premium Price,High Profit,Nike Men Clothing 
+PROD0152,Beauty,Makeup,Loreal,15042.15,31804.67,High Price,High Profit,Loreal Makeup 
+PROD0153,Sports,Outdoor,Decathlon,18522.31,25869.99,High Price,High Profit,Decathlon Outdoor 
+PROD0154,Fashion,Men Clothing,Nike,5426.83,11595.29,Mid Price,High Profit,Nike Men Clothing 
+PROD0155,Fashion,Men Clothing,Puma,793.14,1567.12,Low Price,Low Profit,Puma Men Clothing 
+PROD0156,Electronics,Mobiles,Apple,8756.76,11964.57,Mid Price,Mid Profit,Apple Mobiles 
+PROD0157,Electronics,Accessories,Dell,14667.5,23009.82,Mid Price,High Profit,Dell Accessories 
+PROD0158,Home & Kitchen,Appliances,Philips,8720.23,15723.74,Mid Price,High Profit,Philips Appliances 
+PROD0159,Electronics,Mobiles,Dell,19708.88,27718.93,High Price,High Profit,Dell Mobiles 
+PROD0160,Beauty,Makeup,Lakme,5489.26,9116.44,Low Price,Mid Profit,Lakme Makeup 
+PROD0161,Home & Kitchen,Furniture,Prestige,25341.65,32239.94,High Price,High Profit,Prestige Furniture 
+PROD0162,Fashion,Footwear,Puma,7956.69,13543.24,Mid Price,High Profit,Puma Footwear 
+PROD0163,Beauty,Skincare,Loreal,14244.52,28508.18,High Price,High Profit,Loreal Skincare 
+PROD0164,Home & Kitchen,Appliances,Prestige,24220.67,30617.99,High Price,High Profit,Prestige Appliances 
+PROD0165,Fashion,Footwear,Puma,8496.39,13743.67,Mid Price,High Profit,Puma Footwear 
+PROD0166,Fashion,Men Clothing,Nike,3769.08,5970.15,Low Price,Mid Profit,Nike Men Clothing 
+PROD0167,Electronics,Laptops,Samsung,31084.1,48581.69,Premium Price,High Profit,Samsung Laptops 
+PROD0168,Electronics,Laptops,Samsung,6008.8,10753.72,Mid Price,Mid Profit,Samsung Laptops 
+PROD0169,Sports,Fitness,Decathlon,23516.99,31357.73,High Price,High Profit,Decathlon Fitness 
+PROD0170,Sports,Fitness,Decathlon,14125.5,22726.54,Mid Price,High Profit,Decathlon Fitness 
+PROD0171,Home & Kitchen,Furniture,Philips,19711.13,40486.83,Premium Price,High Profit,Philips Furniture 
+PROD0172,Beauty,Skincare,Loreal,29142.87,47567.16,Premium Price,High Profit,Loreal Skincare 
+PROD0173,Electronics,Laptops,Samsung,12028.99,16649.33,Mid Price,Mid Profit,Samsung Laptops 
+PROD0174,Fashion,Footwear,Nike,6465.15,12897.98,Mid Price,High Profit,Nike Footwear 
+PROD0175,Sports,Outdoor,Reebok,8896.49,12980.27,Mid Price,Mid Profit,Reebok Outdoor 
+PROD0176,Beauty,Skincare,Loreal,3114.77,5123.33,Low Price,Mid Profit,Loreal Skincare 
+PROD0177,Sports,Fitness,Decathlon,7598.53,11854.41,Mid Price,Mid Profit,Decathlon Fitness 
+PROD0178,Sports,Outdoor,Decathlon,5046.35,7000.19,Low Price,Mid Profit,Decathlon Outdoor 
+PROD0179,Sports,Fitness,Decathlon,25955.86,46203.24,Premium Price,High Profit,Decathlon Fitness 
+PROD0180,Electronics,Mobiles,Apple,11728.48,17788.48,Mid Price,High Profit,Apple Mobiles 
+PROD0181,Fashion,Men Clothing,Nike,17389.14,36967.04,High Price,High Profit,Nike Men Clothing 
+PROD0182,Beauty,Makeup,Lakme,24821.56,33771.43,High Price,High Profit,Lakme Makeup 
+PROD0183,Electronics,Accessories,Dell,23927.27,39646.81,High Price,High Profit,Dell Accessories 
+PROD0184,Fashion,Men Clothing,Puma,26400.77,41156.24,Premium Price,High Profit,Puma Men Clothing 
+PROD0185,Electronics,Laptops,Apple,5179.74,9417.58,Low Price,Mid Profit,Apple Laptops 
+PROD0186,Sports,Fitness,Decathlon,19093.51,29677.52,High Price,High Profit,Decathlon Fitness 
+PROD0187,Beauty,Makeup,Lakme,28098.28,40128.2,Premium Price,High Profit,Lakme Makeup 
+PROD0188,Home & Kitchen,Furniture,Philips,6321.89,10731.7,Mid Price,Mid Profit,Philips Furniture 
+PROD0189,Fashion,Men Clothing,Puma,23758.09,38925.9,High Price,High Profit,Puma Men Clothing 
+PROD0190,Beauty,Skincare,Loreal,8813.78,11329.01,Mid Price,Mid Profit,Loreal Skincare 
+PROD0191,Home & Kitchen,Furniture,Philips,12561.17,22508.87,Mid Price,High Profit,Philips Furniture 
+PROD0192,Electronics,Accessories,Apple,14222.78,25611.79,High Price,High Profit,Apple Accessories 
+PROD0193,Home & Kitchen,Appliances,Prestige,9263.54,13592.15,Mid Price,Mid Profit,Prestige Appliances 
+PROD0194,Sports,Fitness,Decathlon,23594.43,39782.14,High Price,High Profit,Decathlon Fitness 
+PROD0195,Beauty,Skincare,Loreal,5012.94,8130.91,Low Price,Mid Profit,Loreal Skincare 
+PROD0196,Home & Kitchen,Furniture,Philips,12134.26,20139.88,Mid Price,High Profit,Philips Furniture 
+PROD0197,Beauty,Makeup,Loreal,8682.53,12069.81,Mid Price,Mid Profit,Loreal Makeup 
+PROD0198,Beauty,Makeup,Loreal,4723.87,10191.16,Mid Price,High Profit,Loreal Makeup 
+PROD0199,Electronics,Accessories,Apple,24870.96,35035.67,High Price,High Profit,Apple Accessories 
+PROD0200,Home & Kitchen,Furniture,Prestige,6135.5,12014.09,Mid Price,High Profit,Prestige Furniture 
+PROD0201,Electronics,Laptops,Samsung,22437.13,29068.51,High Price,High Profit,Samsung Laptops 
+PROD0202,Electronics,Accessories,Samsung,8162.46,12773.77,Mid Price,Mid Profit,Samsung Accessories 
+PROD0203,Home & Kitchen,Appliances,Philips,9432.03,13292.47,Mid Price,Mid Profit,Philips Appliances 
+PROD0204,Fashion,Footwear,Nike,13638.38,23408.11,Mid Price,High Profit,Nike Footwear 
+PROD0205,Fashion,Men Clothing,Puma,20887.03,32841.41,High Price,High Profit,Puma Men Clothing 
+PROD0206,Fashion,Men Clothing,Nike,6038.56,10137.35,Mid Price,Mid Profit,Nike Men Clothing 
+PROD0207,Home & Kitchen,Furniture,Prestige,34934.2,47829.03,Premium Price,High Profit,Prestige Furniture 
+PROD0208,Beauty,Makeup,Lakme,17474.68,25654.22,High Price,High Profit,Lakme Makeup 
+PROD0209,Fashion,Footwear,Puma,4283.82,7204.33,Low Price,Mid Profit,Puma Footwear 
+PROD0210,Beauty,Makeup,Loreal,23084.63,44751.34,Premium Price,High Profit,Loreal Makeup 
+PROD0211,Fashion,Men Clothing,Puma,36668.2,49097.87,Premium Price,High Profit,Puma Men Clothing 
+PROD0212,Beauty,Makeup,Lakme,19942.31,34337.79,High Price,High Profit,Lakme Makeup 
+PROD0213,Home & Kitchen,Furniture,Prestige,2596.81,4694.67,Low Price,Mid Profit,Prestige Furniture 
+PROD0214,Home & Kitchen,Appliances,Philips,22155.24,37075.72,High Price,High Profit,Philips Appliances 
+PROD0215,Fashion,Footwear,Puma,21107.34,40164.01,Premium Price,High Profit,Puma Footwear 
+PROD0216,Home & Kitchen,Appliances,Philips,30946.51,41204.93,Premium Price,High Profit,Philips Appliances 
+PROD0217,Beauty,Makeup,Lakme,18842.34,36137.64,High Price,High Profit,Lakme Makeup 
+PROD0218,Home & Kitchen,Appliances,Prestige,5302.56,11222.28,Mid Price,High Profit,Prestige Appliances 
+PROD0219,Electronics,Laptops,Apple,1885.03,2659.94,Low Price,Low Profit,Apple Laptops 
+PROD0220,Electronics,Accessories,Samsung,17645.73,24626.68,Mid Price,High Profit,Samsung Accessories 
+PROD0221,Fashion,Footwear,Puma,8111.13,14209.03,Mid Price,High Profit,Puma Footwear 
+PROD0222,Beauty,Makeup,Lakme,35755.59,44745.71,Premium Price,High Profit,Lakme Makeup 
+PROD0223,Home & Kitchen,Appliances,Philips,3742.06,5177.62,Low Price,Mid Profit,Philips Appliances 
+PROD0224,Beauty,Skincare,Lakme,12577.66,27851.81,High Price,High Profit,Lakme Skincare 
+PROD0225,Electronics,Accessories,Samsung,16913.71,30865.85,High Price,High Profit,Samsung Accessories 
+PROD0226,Beauty,Skincare,Loreal,13885.31,17593.1,Mid Price,Mid Profit,Loreal Skincare 
+PROD0227,Beauty,Skincare,Lakme,17430.94,37159.63,High Price,High Profit,Lakme Skincare 
+PROD0228,Fashion,Men Clothing,Puma,15491.33,34080.69,High Price,High Profit,Puma Men Clothing 
+PROD0229,Home & Kitchen,Appliances,Prestige,29200.44,44321.07,Premium Price,High Profit,Prestige Appliances 
+PROD0230,Home & Kitchen,Appliances,Prestige,14391.89,31577.98,High Price,High Profit,Prestige Appliances 
+PROD0231,Fashion,Men Clothing,Puma,2714.75,4280.91,Low Price,Mid Profit,Puma Men Clothing 
+PROD0232,Sports,Outdoor,Decathlon,14101.07,19148.56,Mid Price,High Profit,Decathlon Outdoor 
+PROD0233,Fashion,Footwear,Nike,8417.75,14270.21,Mid Price,High Profit,Nike Footwear 
+PROD0234,Fashion,Men Clothing,Nike,3811.08,6087.94,Low Price,Mid Profit,Nike Men Clothing 
+PROD0235,Beauty,Makeup,Loreal,25934.33,47755.58,Premium Price,High Profit,Loreal Makeup 
+PROD0236,Beauty,Skincare,Lakme,20073.4,39562.5,High Price,High Profit,Lakme Skincare 
+PROD0237,Fashion,Footwear,Nike,27887.51,44306.56,Premium Price,High Profit,Nike Footwear 
+PROD0238,Home & Kitchen,Furniture,Prestige,4617.19,6377.83,Low Price,Mid Profit,Prestige Furniture 
+PROD0239,Fashion,Men Clothing,Puma,22229.53,44390.58,Premium Price,High Profit,Puma Men Clothing 
+PROD0240,Sports,Fitness,Decathlon,3205.89,5959.05,Low Price,Mid Profit,Decathlon Fitness 
+PROD0241,Beauty,Makeup,Loreal,20186.31,25795.93,High Price,High Profit,Loreal Makeup 
+PROD0242,Sports,Fitness,Reebok,24260.36,43043.9,Premium Price,High Profit,Reebok Fitness 
+PROD0243,Home & Kitchen,Appliances,Philips,1290.17,1959.27,Low Price,Low Profit,Philips Appliances 
+PROD0244,Beauty,Makeup,Loreal,15384.35,28780.63,High Price,High Profit,Loreal Makeup 
+PROD0245,Fashion,Footwear,Nike,23979.48,30217.68,High Price,High Profit,Nike Footwear 
+PROD0246,Home & Kitchen,Furniture,Prestige,4092.07,7304.91,Low Price,Mid Profit,Prestige Furniture 
+PROD0247,Beauty,Makeup,Loreal,21448.16,42411.88,Premium Price,High Profit,Loreal Makeup 
+PROD0248,Home & Kitchen,Furniture,Philips,3329.39,6525.56,Low Price,Mid Profit,Philips Furniture 
+PROD0249,Electronics,Laptops,Dell,19046.03,38507.91,High Price,High Profit,Dell Laptops 
+PROD0250,Beauty,Makeup,Lakme,3110.94,4647.12,Low Price,Mid Profit,Lakme Makeup 
