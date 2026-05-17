@@ -70,3 +70,35 @@ The purpose of these cleaning and transformation steps was to:
 - Prepare datasets for analysis and dashboarding
 - Enable better reporting and business insights
 
+# 3. Dim Product Table
+
+## Cleaning Steps Performed
+
+- Checked data types of required columns
+- Checked duplicate values in `Product ID`
+- Handled missing values in `Product Name`
+- Handled missing values in `Selling Price`
+- Standardized text formatting using:
+  - `TRIM()`
+  - `CLEAN()`
+  - Proper capitalization of each word
+- Cleaned product names by removing numeric digits
+
+## Feature Engineering / Custom Columns Added
+
+### Product Features
+- Added `Selling Price Bucket` column
+- Added `Profit Bucket` column
+
+---
+
+# Purpose of Cleaning
+
+The purpose of these transformations was to:
+
+- Improve product data consistency
+- Remove invalid and noisy text values
+- Handle incomplete records
+- Create categorized pricing and profit segments
+- Prepare the product dimension table for reporting and dashboard analysis
+
