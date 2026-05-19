@@ -1,0 +1,16 @@
+﻿store_id,store_name,city,state,region,store_type
+STR001,Delhi Retail Hub,Delhi,Delhi,North,Standalone
+STR002,Mumbai Retail Hub,Mumbai,Maharashtra,West,Mall
+STR003,Bengaluru Retail Hub,Bengaluru,Karnataka,South,Warehouse
+STR004,Chennai Retail Hub,Chennai,Tamil Nadu,South,Mall
+STR005,Hyderabad Retail Hub,Hyderabad,Telangana,South,Warehouse
+STR006,Kolkata Retail Hub,Kolkata,West Bengal,East,Warehouse
+STR007,Lucknow Retail Hub,Lucknow,Uttar Pradesh,North,Warehouse
+STR008,Jaipur Retail Hub,Jaipur,Rajasthan,North,Mall
+STR009,Pune Retail Hub,Pune,Maharashtra,West,Warehouse
+STR010,Ahmedabad Retail Hub,Ahmedabad,Gujarat,West,Standalone
+STR011,Noida Retail Hub,Noida,Uttar Pradesh,North,Mall
+STR012,Indore Retail Hub,Indore,Madhya Pradesh,Central,Standalone
+STR013,Patna Retail Hub,Patna,Bihar,East,Mall
+STR014,Kochi Retail Hub,Kochi,Kerala,South,Mall
+STR015,Chandigarh Retail Hub,Chandigarh,Chandigarh,North,Mall
