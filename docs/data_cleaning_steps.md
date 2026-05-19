@@ -127,5 +127,15 @@ These enhancements help support:
 - Seasonal sales analysis
 - Festival demand trend analysis
 - Time-based reporting
-- Better dashboard filtering and insights
+- Better dashboard filtering and insights           
 
+
+
+## dim_stores Table Cleaning & Standardization
+
+- Checked and removed duplicate records to maintain data integrity.
+- Handled missing/null values in important columns using appropriate fill methods.
+- Standardized text formatting using `TRIM`, `CLEAN`, and proper capitalization techniques.
+- Corrected inconsistent word spellings and naming formats across store-related columns.
+- Verified data types and ensured consistency for analysis readiness.
+- Improved overall data quality and prepared the `dim_stores` table for reporting and dashboard integration.
