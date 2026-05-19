@@ -72,3 +72,38 @@ NOTES:
 - Relationships and constraints will be applied after successful data import.
 - Star schema is designed for Power BI reporting and KPI analysis.
 */
+
+/*
+DATABASE STRUCTURE PLAN
+
+Database Name:
+RetailAnalyticsDB
+
+Schemas:
+- dbo.fact_orders
+- dbo.fact_inventory
+- dbo.dim_products
+- dbo.dim_customers
+- dbo.dim_stores
+- dbo.dim_date
+*/
+
+/*
+PK/FK Planning Section
+
+PRIMARY KEY PLAN
+fact_orders      -> order_id
+fact_inventory   -> inventory_id
+dim_products     -> product_id
+dim_customers    -> customer_id
+dim_stores       -> store_id
+dim_date         -> date
+
+FOREIGN KEY PLAN
+fact_orders.product_id    -> dim_products.product_id
+fact_orders.customer_id   -> dim_customers.customer_id
+fact_orders.store_id      -> dim_stores.store_id
+
+fact_inventory.product_id -> dim_products.product_id
+fact_inventory.store_id   -> dim_stores.store_id
+*/
