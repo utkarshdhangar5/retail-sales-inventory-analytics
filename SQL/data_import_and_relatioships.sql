@@ -228,9 +228,6 @@ FOREIGN KEY (store_id)
 REFERENCES dim_stores_cleaned(store_id);
 
 
-
-
-
 /*
 1. Imported cleaned fact and dimension tables into SQL Server using Flat File Import Wizard.
 2. Performed data validation checks including:
