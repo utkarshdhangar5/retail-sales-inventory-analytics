@@ -162,3 +162,121 @@ ORDER BY total_revenue DESC;
    to enhance customer experience.
 */
 
+---------------------------------------------------------------------
+
+/*
+Product & Category Sales Analysis
+Using fact_order_cleaned,
+      dim_product_cleaned
+*/
+
+--1. Top 10 Products by Revenue
+select top 10 
+   fo.product_id,
+   dp.product_name,
+   dp.category,
+   dp.sub_category,
+   sum(fo.sales_amount) as total_revenue,
+   sum(fo.quantity) as total_quantity_sold
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by 
+     fo.product_id,
+     dp.product_name,
+     dp.category,
+     dp.sub_category
+order by total_revenue desc;
+
+--2. Top 10 Products by Quantity Sold
+select top 10
+    fo.product_id,
+    dp.product_name,
+    dp.category,
+    sum(fo.quantity) as total_quantity_sold,
+    sum(fo.sales_amount) as total_revenue
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by 
+    fo.product_id,
+    dp.product_name,
+    dp.category
+order by total_quantity_sold desc;
+
+--3. Revenue by Product Category
+select 
+    dp.category,
+    count(distinct fo.order_id) as total_orders,
+    sum(fo.quantity) as total_quantity_sold,
+    sum(fo.sales_amount) as total_revenue
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by dp.category
+order by total_revenue desc;
+
+--4. Revenue by Sub Category
+select 
+    dp.category,
+    dp.sub_category,
+    sum(fo.quantity) as total_quantity_sold,
+    sum(fo.sales_amount) as total_revenue
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by 
+    dp.category,
+    dp.sub_category
+ORDER BY total_revenue DESC;
+
+--5. Product Category Revenue Contribution %
+select 
+   dp.category,
+   sum(fo.sales_amount) as total_revenue,
+
+   round(
+         sum(fo.sales_amount) * 100.0 /
+         (select sum(sales_amount) from fact_order_cleaned), 2
+      ) as revenue_contribution_pct
+
+from fact_order_cleaned fo
+join dim_product_cleaned dp 
+on fo.product_id = dp.product_id
+group by dp.category
+order by revenue_contribution_pct desc;
+
+
+/* Insights
+
+1. Loreal Makeup (PROD0235) generated the highest revenue at 12.26M, followed closely by Apple Accessories (12.19M) 
+   and Prestige Furniture (11.66M). Beauty products dominated the top-performing products list, indicating strong 
+   customer demand and higher profitability in the Beauty category.
+
+2. Prestige Furniture recorded the highest quantity sold (344 units), while Nike Footwear and Decathlon Fitness also 
+   showed strong sales volume. Some products such as Apple Laptops generated high quantity sales but comparatively 
+   lower revenue, suggesting lower pricing or discount-driven sales performance.
+
+3. Beauty emerged as the highest revenue-generating category with 322.1M revenue, contributing 24.47% of total sales,
+   followed by Fashion (300.7M, 22.85%) and Electronics (249M, 18.92%). This indicates that Beauty and Fashion 
+   categories are the primary revenue drivers for the business.
+
+4. At the sub-category level, Beauty Makeup generated the highest revenue at 214.8M, followed by Fashion
+   Men Clothing (151.7M) and Fashion Footwear (148.9M). Fitness and Electronics Accessories also showed strong sales
+   performance, highlighting diversified customer demand across multiple retail segments.
+
+5. Home & Kitchen and Sports categories generated relatively balanced revenue contributions of 16.81% and 16.31% 
+   respectively, showing stable demand across lifestyle and fitness-related products. The Unknown category contributed
+   only 0.65% of total revenue, indicating minimal impact from uncategorized or missing product records.
+
+6. The analysis also reveals that some categories achieve high revenue with comparatively lower quantity sold, 
+   suggesting premium pricing and higher average selling value products, particularly within Beauty and 
+   Electronics categories.
+
+*/
+
+
+
+ 
+
+ 
