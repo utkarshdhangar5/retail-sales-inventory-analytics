@@ -139,3 +139,20 @@ These enhancements help support:
 - Corrected inconsistent word spellings and naming formats across store-related columns.
 - Verified data types and ensured consistency for analysis readiness.
 - Improved overall data quality and prepared the `dim_stores` table for reporting and dashboard integration.
+## Data Cleaning Steps Performed (`dim_customers`)
+
+- Imported raw customer dataset into Power Query.
+- Promoted the first row as column headers for proper table structure.
+- Removed duplicate customer records to improve data integrity.
+- Filtered unnecessary and null rows from the dataset.
+- Standardized text formatting using the **Capitalize Each Word** transformation.
+- Corrected and assigned appropriate data types to all columns.
+- Renamed the query as `dim_customers` following dimensional modeling standards.
+- Ensured consistency in customer naming conventions across the dataset.
+- Prepared the cleaned customer dimension table for data modeling and dashboard integration.
+
+---
+
+## Objective
+
+The customer dataset was cleaned and standardized to improve data quality, remove inconsistencies, and prepare the data for accurate reporting, analysis, and relationship building within the Power BI data model.
