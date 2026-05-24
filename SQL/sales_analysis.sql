@@ -275,6 +275,109 @@ order by revenue_contribution_pct desc;
 
 */
 
+-----------------------------------------------------------------------------------
+
+/*
+STORE AND GEOGRAPHIC SALES ANALYSIS
+Using fact_order_cleaned,
+      dim_stores_cleaned
+*/
+
+-- 1. Revenue by Store
+SELECT 
+    ds.store_name,
+    ds.city,
+    ds.region,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY 
+    ds.store_name,
+    ds.city,
+    ds.region
+ORDER BY total_revenue DESC;
+
+-- 2. Top 10 Revenue Generating Locations
+SELECT top 10
+    ds.city,
+    ds.region,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY 
+    ds.city,
+    ds.region
+ORDER BY total_revenue DESC;
+
+-- 3. Revenue by Region
+SELECT 
+    ds.region,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY ds.region
+ORDER BY total_revenue DESC;
+
+-- 4. Average Order Value by Region
+SELECT 
+    ds.region,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue,
+    SUM(fo.sales_amount) / COUNT(DISTINCT fo.order_id) AS average_order_value
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY ds.region
+ORDER BY average_order_value DESC;   
+
+-- 5. Store Performance Ranking
+select 
+    ds.store_name,
+    ds.city,
+    ds.region,
+    sum(fo.sales_amount) as total_revenue,
+
+    rank() over (
+        order by sum(fo.sales_amount) desc
+    ) as rnk
+from fact_order_cleaned fo 
+join dim_stores_cleaned ds
+    on fo.store_id = ds.store_id
+GROUP BY 
+    ds.store_name,
+    ds.city,
+    ds.region;
+
+
+/* Insights
+
+1. Pune Retail Hub generated the highest revenue at 91.8M, followed closely by Jaipur (90.9M) and Indore (90.3M), 
+   indicating strong sales performance across West, North, and Central regions. Revenue distribution across stores 
+   remained relatively balanced, showing stable multi-location retail performance without extreme dependency 
+   on a single retail node.
+
+2. The North region generated the highest overall revenue at 437.2M with 6,620 total orders, making it the strongest 
+   performing geographic region for the business. South (352.3M) and West (260M) with 5338 3947 total orders,
+   also contributed significantly, while the Central region generated the lowest total revenue due to having only 
+   one major retail node.
+
+3. Central region recorded the highest Average Order Value (67.6K), slightly outperforming North and South regions.
+   This indicates that although Central region had lower order volume, customers placed higher-value transactions 
+   on average. East region recorded the lowest AOV (64K), suggesting comparatively lower spending per order.
+
+4. Mumbai Retail Hub ranked lowest among the analyzed stores with 83.9M revenue, while the revenue gap between 
+   the top-ranked and lowest-ranked stores remained relatively small. This suggests consistent sales performance 
+   across multiple retail locations rather than dependency on a single high-performing store.
+
+*/
+
+
+
 
 
  
