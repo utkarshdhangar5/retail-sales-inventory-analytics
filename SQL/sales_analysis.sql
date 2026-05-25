@@ -376,7 +376,92 @@ GROUP BY
 
 */
 
+------------------------------------------------------------------------------------------
 
+/*
+Customer Analysis
+Using fact_order_cleaned,
+      dim_customer_cleaned
+*/
+
+-- 1. Top 10 Customers by Revenue
+select top 10 
+    fo.customer_id,
+    dc.customer_name,
+    dc.city,
+    dc.state,
+    dc.loyalty_status,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+from fact_order_cleaned fo 
+join dim_customer_cleaned dc
+on fo.customer_id = dc.customer_id
+GROUP BY 
+    fo.customer_id,
+    dc.customer_name,
+    dc.city,
+    dc.state,
+    dc.loyalty_status
+ORDER BY total_revenue DESC;
+
+-- 2. Revenue by Loyalty Status
+select
+    dc.loyalty_status,
+      COUNT(DISTINCT fo.customer_id) AS total_customers,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_customer_cleaned dc
+    ON fo.customer_id = dc.customer_id
+GROUP BY dc.loyalty_status
+ORDER BY total_revenue DESC;
+
+-- 3. Average Customer Spend
+select 
+    dc.loyalty_status,
+    round(
+        sum(fo.sales_amount) * 1.0 /
+        count(distinct fo.customer_id), 2
+    ) as avg_customer_spend
+FROM fact_order_cleaned fo
+JOIN dim_customer_cleaned dc
+    ON fo.customer_id = dc.customer_id
+GROUP BY dc.loyalty_status
+ORDER BY avg_customer_spend DESC;
+
+-- 4. Customer Distribution by State
+select
+    state,
+    COUNT(DISTINCT customer_id) AS total_customers
+from dim_customer_cleaned 
+group by state
+order by total_customers desc;
+
+-- 5. Customer Distribution by Loyalty Status
+select 
+    loyalty_status,
+    COUNT(DISTINCT customer_id) AS total_customers
+FROM dim_customer_cleaned
+GROUP BY loyalty_status
+ORDER BY total_customers DESC;
+
+
+/* Insights
+
+1. Customer Id CUST01792 emerged as the highest revenue-generating customer with 1.55M total revenue across
+   15 total orders, followed by Customer Id CUST02359 (1.49M) and CUST00266 (1.40M). The top-performing customers 
+   were distributed across multiple cities such as Noida, Bengaluru, Indore, Mumbai, and Pune, indicating customer 
+   contribution diversified across regions.
+
+2. Gold and Silver loyalty customers generated almost equal revenue contributions of 446.5M each, while Regular 
+   customers contributed 423.1M. Although Gold customers generated the highest overall revenue, Silver customers
+   recorded the highest average customer spend at 537K, slightly outperforming Gold and Regular segments.
+
+3. Uttar Pradesh recorded the highest customer distribution with 361 customers, followed by Maharashtra (341) 
+   and Tamil Nadu (192). The loyalty customer distribution remained balanced across Gold (849), Silver (831), and 
+   Regular (819) segments, showing stable customer engagement across multiple loyalty tiers.
+
+*/
 
 
 
