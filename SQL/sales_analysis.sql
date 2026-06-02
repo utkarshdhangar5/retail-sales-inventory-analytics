@@ -162,3 +162,309 @@ ORDER BY total_revenue DESC;
    to enhance customer experience.
 */
 
+---------------------------------------------------------------------
+
+/*
+Product & Category Sales Analysis
+Using fact_order_cleaned,
+      dim_product_cleaned
+*/
+
+--1. Top 10 Products by Revenue
+select top 10 
+   fo.product_id,
+   dp.product_name,
+   dp.category,
+   dp.sub_category,
+   sum(fo.sales_amount) as total_revenue,
+   sum(fo.quantity) as total_quantity_sold
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by 
+     fo.product_id,
+     dp.product_name,
+     dp.category,
+     dp.sub_category
+order by total_revenue desc;
+
+--2. Top 10 Products by Quantity Sold
+select top 10
+    fo.product_id,
+    dp.product_name,
+    dp.category,
+    sum(fo.quantity) as total_quantity_sold,
+    sum(fo.sales_amount) as total_revenue
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by 
+    fo.product_id,
+    dp.product_name,
+    dp.category
+order by total_quantity_sold desc;
+
+--3. Revenue by Product Category
+select 
+    dp.category,
+    count(distinct fo.order_id) as total_orders,
+    sum(fo.quantity) as total_quantity_sold,
+    sum(fo.sales_amount) as total_revenue
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by dp.category
+order by total_revenue desc;
+
+--4. Revenue by Sub Category
+select 
+    dp.category,
+    dp.sub_category,
+    sum(fo.quantity) as total_quantity_sold,
+    sum(fo.sales_amount) as total_revenue
+from fact_order_cleaned fo
+join dim_product_cleaned dp
+on fo.product_id = dp.product_id
+group by 
+    dp.category,
+    dp.sub_category
+ORDER BY total_revenue DESC;
+
+--5. Product Category Revenue Contribution %
+select 
+   dp.category,
+   sum(fo.sales_amount) as total_revenue,
+
+   round(
+         sum(fo.sales_amount) * 100.0 /
+         (select sum(sales_amount) from fact_order_cleaned), 2
+      ) as revenue_contribution_pct
+
+from fact_order_cleaned fo
+join dim_product_cleaned dp 
+on fo.product_id = dp.product_id
+group by dp.category
+order by revenue_contribution_pct desc;
+
+
+/* Insights
+
+1. Loreal Makeup (PROD0235) generated the highest revenue at 12.26M, followed closely by Apple Accessories (12.19M) 
+   and Prestige Furniture (11.66M). Beauty products dominated the top-performing products list, indicating strong 
+   customer demand and higher profitability in the Beauty category.
+
+2. Prestige Furniture recorded the highest quantity sold (344 units), while Nike Footwear and Decathlon Fitness also 
+   showed strong sales volume. Some products such as Apple Laptops generated high quantity sales but comparatively 
+   lower revenue, suggesting lower pricing or discount-driven sales performance.
+
+3. Beauty emerged as the highest revenue-generating category with 322.1M revenue, contributing 24.47% of total sales,
+   followed by Fashion (300.7M, 22.85%) and Electronics (249M, 18.92%). This indicates that Beauty and Fashion 
+   categories are the primary revenue drivers for the business.
+
+4. At the sub-category level, Beauty Makeup generated the highest revenue at 214.8M, followed by Fashion
+   Men Clothing (151.7M) and Fashion Footwear (148.9M). Fitness and Electronics Accessories also showed strong sales
+   performance, highlighting diversified customer demand across multiple retail segments.
+
+5. Home & Kitchen and Sports categories generated relatively balanced revenue contributions of 16.81% and 16.31% 
+   respectively, showing stable demand across lifestyle and fitness-related products. The Unknown category contributed
+   only 0.65% of total revenue, indicating minimal impact from uncategorized or missing product records.
+
+6. The analysis also reveals that some categories achieve high revenue with comparatively lower quantity sold, 
+   suggesting premium pricing and higher average selling value products, particularly within Beauty and 
+   Electronics categories.
+
+*/
+
+-----------------------------------------------------------------------------------
+
+/*
+STORE AND GEOGRAPHIC SALES ANALYSIS
+Using fact_order_cleaned,
+      dim_stores_cleaned
+*/
+
+-- 1. Revenue by Store
+SELECT 
+    ds.store_name,
+    ds.city,
+    ds.region,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY 
+    ds.store_name,
+    ds.city,
+    ds.region
+ORDER BY total_revenue DESC;
+
+-- 2. Top 10 Revenue Generating Locations
+SELECT top 10
+    ds.city,
+    ds.region,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY 
+    ds.city,
+    ds.region
+ORDER BY total_revenue DESC;
+
+-- 3. Revenue by Region
+SELECT 
+    ds.region,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY ds.region
+ORDER BY total_revenue DESC;
+
+-- 4. Average Order Value by Region
+SELECT 
+    ds.region,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue,
+    SUM(fo.sales_amount) / COUNT(DISTINCT fo.order_id) AS average_order_value
+FROM fact_order_cleaned fo
+JOIN dim_stores_cleaned ds
+    ON fo.store_id = ds.store_id
+GROUP BY ds.region
+ORDER BY average_order_value DESC;   
+
+-- 5. Store Performance Ranking
+select 
+    ds.store_name,
+    ds.city,
+    ds.region,
+    sum(fo.sales_amount) as total_revenue,
+
+    rank() over (
+        order by sum(fo.sales_amount) desc
+    ) as rnk
+from fact_order_cleaned fo 
+join dim_stores_cleaned ds
+    on fo.store_id = ds.store_id
+GROUP BY 
+    ds.store_name,
+    ds.city,
+    ds.region;
+
+
+/* Insights
+
+1. Pune Retail Hub generated the highest revenue at 91.8M, followed closely by Jaipur (90.9M) and Indore (90.3M), 
+   indicating strong sales performance across West, North, and Central regions. Revenue distribution across stores 
+   remained relatively balanced, showing stable multi-location retail performance without extreme dependency 
+   on a single retail node.
+
+2. The North region generated the highest overall revenue at 437.2M with 6,620 total orders, making it the strongest 
+   performing geographic region for the business. South (352.3M) and West (260M) with 5338 3947 total orders,
+   also contributed significantly, while the Central region generated the lowest total revenue due to having only 
+   one major retail node.
+
+3. Central region recorded the highest Average Order Value (67.6K), slightly outperforming North and South regions.
+   This indicates that although Central region had lower order volume, customers placed higher-value transactions 
+   on average. East region recorded the lowest AOV (64K), suggesting comparatively lower spending per order.
+
+4. Mumbai Retail Hub ranked lowest among the analyzed stores with 83.9M revenue, while the revenue gap between 
+   the top-ranked and lowest-ranked stores remained relatively small. This suggests consistent sales performance 
+   across multiple retail locations rather than dependency on a single high-performing store.
+
+*/
+
+------------------------------------------------------------------------------------------
+
+/*
+Customer Analysis
+Using fact_order_cleaned,
+      dim_customer_cleaned
+*/
+
+-- 1. Top 10 Customers by Revenue
+select top 10 
+    fo.customer_id,
+    dc.customer_name,
+    dc.city,
+    dc.state,
+    dc.loyalty_status,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+from fact_order_cleaned fo 
+join dim_customer_cleaned dc
+on fo.customer_id = dc.customer_id
+GROUP BY 
+    fo.customer_id,
+    dc.customer_name,
+    dc.city,
+    dc.state,
+    dc.loyalty_status
+ORDER BY total_revenue DESC;
+
+-- 2. Revenue by Loyalty Status
+select
+    dc.loyalty_status,
+      COUNT(DISTINCT fo.customer_id) AS total_customers,
+    COUNT(DISTINCT fo.order_id) AS total_orders,
+    SUM(fo.sales_amount) AS total_revenue
+FROM fact_order_cleaned fo
+JOIN dim_customer_cleaned dc
+    ON fo.customer_id = dc.customer_id
+GROUP BY dc.loyalty_status
+ORDER BY total_revenue DESC;
+
+-- 3. Average Customer Spend
+select 
+    dc.loyalty_status,
+    round(
+        sum(fo.sales_amount) * 1.0 /
+        count(distinct fo.customer_id), 2
+    ) as avg_customer_spend
+FROM fact_order_cleaned fo
+JOIN dim_customer_cleaned dc
+    ON fo.customer_id = dc.customer_id
+GROUP BY dc.loyalty_status
+ORDER BY avg_customer_spend DESC;
+
+-- 4. Customer Distribution by State
+select
+    state,
+    COUNT(DISTINCT customer_id) AS total_customers
+from dim_customer_cleaned 
+group by state
+order by total_customers desc;
+
+-- 5. Customer Distribution by Loyalty Status
+select 
+    loyalty_status,
+    COUNT(DISTINCT customer_id) AS total_customers
+FROM dim_customer_cleaned
+GROUP BY loyalty_status
+ORDER BY total_customers DESC;
+
+
+/* Insights
+
+1. Customer Id CUST01792 emerged as the highest revenue-generating customer with 1.55M total revenue across
+   15 total orders, followed by Customer Id CUST02359 (1.49M) and CUST00266 (1.40M). The top-performing customers 
+   were distributed across multiple cities such as Noida, Bengaluru, Indore, Mumbai, and Pune, indicating customer 
+   contribution diversified across regions.
+
+2. Gold and Silver loyalty customers generated almost equal revenue contributions of 446.5M each, while Regular 
+   customers contributed 423.1M. Although Gold customers generated the highest overall revenue, Silver customers
+   recorded the highest average customer spend at 537K, slightly outperforming Gold and Regular segments.
+
+3. Uttar Pradesh recorded the highest customer distribution with 361 customers, followed by Maharashtra (341) 
+   and Tamil Nadu (192). The loyalty customer distribution remained balanced across Gold (849), Silver (831), and 
+   Regular (819) segments, showing stable customer engagement across multiple loyalty tiers.
+
+*/
+
+
+
+ 
+
+ 
