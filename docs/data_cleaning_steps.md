@@ -155,4 +155,4 @@ These enhancements help support:
 
 ## Objective
 
-The customer dataset was cleaned and standardized to improve data quality, remove inconsistencies, and prepare the data for accurate reporting, analysis, and relationship building within the Power BI data model.
+The customer dataset was cleaned and standardized to improve data quality, remove inconsistencies, and prepare the data for accurate reporting, analysis, and relationship building within the Power BI data model. 
