@@ -199,7 +199,8 @@ Provides high-level business performance through:
 - Revenue KPIs
 - Revenue Trends
 - Category Sales Analysis
-- Regional Revenue Analysis
+- Different time of a day Revenue Analysis
+- Slicers (Year, Month, Payment Method, Category, Sales Channel, Region)
 
 ---
 
@@ -207,7 +208,7 @@ Provides high-level business performance through:
 
 Focuses on:
 
-- Store-Level Sales Performance
+- Store-Level KPIs
 - Daily Sales Trends
 - Weekday vs Weekend Analysis
 - Operational Insights
@@ -219,8 +220,7 @@ Focuses on:
 Provides:
 
 - Sales Trend Analysis
-- Customer Behavior Insights
-- Operational Performance Tracking
+- Operational Performance KPIs
 - Month-over-Month Growth
 - Year-over-Year Growth
 
@@ -234,6 +234,7 @@ Analyzes:
 - City Performance
 - Store Performance
 - Regional YoY Growth
+- Store type performance (Mall, Warehuse, Standalone)
 
 ---
 
@@ -241,25 +242,36 @@ Analyzes:
 
 Tracks:
 
+- Inventory based KPIs
 - Stock Movement
 - Dead Stock Products
 - Fast-Moving Products
 - Procurement Priority
-- Stockout Risk
+
 
 ---
 
 # Dashboard Screenshots
 
-> Add screenshots after final dashboard completion.
+## Executive Overview Dashboard
 
-```text
-/images/executive_overview.png
-/images/store_manager_dashboard.png
-/images/sales_operational_insights.png
-/images/regional_director_dashboard.png
-/images/inventory_dashboard.png
-```
+![Executive Overview](powerbi/screenshots/Overview%20Dashboard.png)
+
+## Store Manager Dashboard
+
+![Store Manager](powerbi/screenshots/Store%20Insights%20Dashboard.png)
+
+## Sales & Operational Dashboard
+
+![Sales Dashboard](powerbi/screenshots/Sales%20%26%20Operational%20Dashboard.png)
+
+## Regional Director Dashboard
+
+![Regional Dashboard](powerbi/screenshots/Regional%20Insights%20Dashboard.png)
+
+## Inventory Dashboard
+
+![Inventory Dashboard](powerbi/screenshots/Inventory%20Insights%20Dashboard.png)
 
 ---
 
@@ -267,7 +279,6 @@ Tracks:
 
 ```text
 Omnichannel-Retail-Sales-Inventory-Analytics/
-│
 ├── data/
 │   ├── raw/
 │   └── cleaned/
@@ -291,11 +302,16 @@ Omnichannel-Retail-Sales-Inventory-Analytics/
 │   └── Final_Dashboard.pbix
 │
 ├── docs/
-│   ├── project_report.md
-│   └── dashboard_screenshots/
+│   ├── data_cleaning_steps.md
+│   └── data_dictionary.md
+│
+├── reports/
+│   ├── Omnichannel_Retail_Analytics_Report.pdf
+│   └── Omnichannel_Retail_Analytics_Presentation.pptx
 │
 └── README.md
 ```
+
 
 ---
 
@@ -303,8 +319,9 @@ Omnichannel-Retail-Sales-Inventory-Analytics/
 
 ### Revenue Insights
 
-- North Region generated the highest revenue contribution.
-- Q4 demonstrated strong seasonal revenue behavior.
+- North Region generated the highest revenue at 437.2M with 6,620 total orders
+- Q4 demonstrated strong seasonal revenue behavior in both year.
+- Evening hours generated the highest revenue (528M) and order volume
 
 ### Product Insights
 
@@ -342,8 +359,8 @@ Omnichannel-Retail-Sales-Inventory-Analytics/
 | Python EDA | Completed |
 | Power BI Dashboard | Completed |
 | Documentation | Completed |
-| README | In Progress |
-| Final Report | In Progress |
+| README | In Completed |
+| Final Report | In Completed |
 
 ---
 
@@ -355,12 +372,14 @@ Omnichannel-Retail-Sales-Inventory-Analytics/
 - Sales & Operational Insights Dashboard
 - Inventory Dashboard
 - Business Insights Generation
+- Validate the final report
 
 ### Utkarsh Dhangar
 
 - SQL Development
 - Executive Dashboard
 - GitHub Management
+- Final Report 
 
 ### Neha Bahrela
 
