@@ -255,23 +255,23 @@ Tracks:
 
 ## Executive Overview Dashboard
 
-![Executive Overview](powerbi/screenshots/Overview%20Dashboard.png)
+![Executive Overview](Powerbi/screenshots/Overview%20Dashboard.png)
 
 ## Store Manager Dashboard
 
-![Store Manager](powerbi/screenshots/Store%20Insights%20Dashboard.png)
+![Store Manager](Powerbi/screenshots/Store%20Insights%20Dashboard.png)
 
 ## Sales & Operational Dashboard
 
-![Sales Dashboard](powerbi/screenshots/Sales%20%26%20Operational%20Dashboard.png)
+![Sales Dashboard](Powerbi/screenshots/Sales%20&%20Operational%20Dashboard.png)
 
 ## Regional Director Dashboard
 
-![Regional Dashboard](powerbi/screenshots/Regional%20Insights%20Dashboard.png)
+![Regional Dashboard](Powerbi/screenshots/Regional%20Insights%20Dashboard.png)
 
 ## Inventory Dashboard
 
-![Inventory Dashboard](powerbi/screenshots/Inventory%20Insights%20Dashboard.png)
+![Inventory Dashboard](Powerbi/screenshots/Inventory%20Insights%20Dashboard.png)
 
 ---
 
